@@ -7,7 +7,7 @@ innerCircle.addEventListener("click", () => {
 
     if(theme.classList.contains("light")) {
 
-        innerCircle.style.marginLeft = "25px";
+        innerCircle.style.marginLeft = "30px";
         toggleBtn.style.backgroundColor ="limegreen";
 
         theme.classList.remove("light");
