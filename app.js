@@ -32,15 +32,10 @@ add.addEventListener("click", () => {
   li.appendChild(text);
   list.appendChild(li);
 
-  setTimeout(() => {
-
-  }, 1);
-
   item.value = "";
   
   li.style.listStyle = "none";
   li.style.textAlign = "center";
-  li.style.borderRadius = "20px";
   li.style.marginTop = "10px";
   li.style.fontWeight = "500";
   li.style.fontSize = "1.5rem";
